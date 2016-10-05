@@ -1,0 +1,65 @@
+* { margin:0; padding: 0; }
+body { 
+	background: url("../immagini/bg_paper.png") repeat; 
+	margin:0; 
+	padding: 0; 
+	font-family: 'Helvetica', sans-serif; 
+	font-size: 12px; 
+	color: #222; 
+	font-size: normal; 
+	letter-spacing: 1px;  
+}
+
+#contenuto { padding: 10px; }
+
+.box_login {
+	margin:0 auto; 
+	margin-top: 30px; 
+	width: 300px;
+	position: relative;
+}
+
+.form_login { 	 
+	padding: 20px; 
+	background: #fdfbfb; 	
+	-moz-border-radius: 15px; 
+	border-radius: 15px; 
+	border:1px solid #ccc;
+	position: relative;
+	z-index: 2;
+}
+.form_login form { border-top: 1px solid #e2e2e2; padding:15px 0;  }
+.form_login h1.prodotto { font-family: 'Capriola', sans-serif; font-size: 30px; color: #333; text-align:  left; margin-bottom: 3px;}
+.form_login h2 { font-size: 14px; font-weight: normal; letter-spacing: 1px; margin-bottom: 10px; color: #676565; font-family: Helvetica;}
+.form_login input { 
+	padding: 10px; 
+	-moz-border-radius: 7px; 
+	border-radius: 7px; 
+	border:1px solid #ccc;
+	margin-bototm:10px;
+	background: #fff;
+	width: 200px;
+	margin-bottom: 10px;
+	font-size: 12px;
+	font-weight: normal!important;
+}
+.form_login a { color: #222!important; text-decoration: none; }
+.form_login a:hover { color: #222!important; text-decoration: underline; }
+
+.form_login input.username { background: #fff url(../immagini/username.png) left no-repeat; padding-left: 30px; background-position: 8px 8px; }
+.form_login input.password { background: #fff url(../immagini/lock.png) left no-repeat; padding-left: 30px; background-position: 8px 8px; }
+.form_login .input label {font-size: 12px; font-size: normal!important; padding-top: 20px; }
+.form_login .input label a { color: #222; }
+
+.form_login input.bt {
+	background: url("../immagini/bg_login.jpg") repeat-x; 
+	-moz-border-radius: 7px; 
+	border-radius: 7px; 
+	border:1px solid #ccc;
+	width:80px;
+	padding:7px;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+.ombra_login { position: absolute; z-index: 1; bottom: -11px; }
